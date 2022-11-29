@@ -1,0 +1,30 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-attachment: fixed;
+  height: 100vh;
+  width: 100vw;
+  /* background-image: linear-gradient(110deg, rgba(0, 217, 255, 0.581), rgba(110, 48, 243, 0.529), rgba(186, 9, 186, 0.621)); */
+  background-image: url('gradient_bg.jpg');
+  background-size: cover;
+}
+
+.glass-box {
+  height: 400px;
+  width: 300px;
+  background-color: rgba(255, 255, 255, 0.2);
+  border-radius: 4vh;
+  box-shadow: inset 0 0 2vh #ffffff44;
+}
+
+#menu {
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+  bottom: 10%;
+  opacity: 0.3;
+  height: 25vh;
+}
